@@ -49,6 +49,18 @@ func (udp *Udp) Send(addr string, msg base.SipMessage) error {
 	}
 
 	var conn *net.UDPConn
+	for _, lp := range udp.listeningPoints {
+		if lp != nil && lp.LocalAddr() != nil {
+			conn = lp
+			break
+		}
+	}
+
+	if conn != nil {
+		_, err = conn.WriteTo([]byte(msg.String()), raddr)
+		return err
+	}
+
 	conn, err = net.DialUDP("udp", nil, raddr)
 	if err != nil {
 		return err
