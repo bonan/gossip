@@ -1,9 +1,9 @@
 package parser
 
 import (
-	"github.com/jkjuopperi/gossip/base"
-	"github.com/jkjuopperi/gossip/log"
-	"github.com/jkjuopperi/gossip/utils"
+	"github.com/bonan/gossip/base"
+	"github.com/bonan/gossip/log"
+	"github.com/bonan/gossip/utils"
 )
 
 import (

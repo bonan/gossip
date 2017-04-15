@@ -2,9 +2,9 @@ package transaction
 
 import (
 	"github.com/discoviking/fsm"
-	"github.com/jkjuopperi/gossip/base"
-	"github.com/jkjuopperi/gossip/log"
-	"github.com/jkjuopperi/gossip/timing"
+	"github.com/bonan/gossip/base"
+	"github.com/bonan/gossip/log"
+	"github.com/bonan/gossip/timing"
 )
 
 // SIP Client Transaction FSM

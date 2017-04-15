@@ -2,11 +2,11 @@ package transaction
 
 import (
 	"fmt"
-	"github.com/jkjuopperi/gossip/base"
-	"github.com/jkjuopperi/gossip/log"
-	"github.com/jkjuopperi/gossip/parser"
-	"github.com/jkjuopperi/gossip/timing"
-	"github.com/jkjuopperi/gossip/transport"
+	"github.com/bonan/gossip/base"
+	"github.com/bonan/gossip/log"
+	"github.com/bonan/gossip/parser"
+	"github.com/bonan/gossip/timing"
+	"github.com/bonan/gossip/transport"
 	"strings"
 	"testing"
 	"time"

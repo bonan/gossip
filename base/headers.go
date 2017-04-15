@@ -1,8 +1,8 @@
 package base
 
 import (
-	"github.com/jkjuopperi/gossip/log"
-	"github.com/jkjuopperi/gossip/utils"
+	"github.com/bonan/gossip/log"
+	"github.com/bonan/gossip/utils"
 	"bytes"
 	"fmt"
 	"strconv"
